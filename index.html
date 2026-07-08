@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sexy Las Trade — Beachwear & Everyday Luxe</title>
+  <meta name="description" content="Bikinis, beachwear, raffia accessories, lingerie, crochet and gym wear for everyone. Editorial style, everyday prices. Order directly on WhatsApp.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <a href="index.html" class="site-header__logo">Sexy Las <span>Trade</span></a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="collections.html">Collections</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="site-header__actions">
+      <button class="header-icon-btn" id="cart-toggle" aria-label="Open cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/><path d="M6 6L4 3H2"/></svg>
+        <span class="cart-count" id="cart-count" hidden>0</span>
+      </button>
+      <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Mobile Nav ===== -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="collections.html">Collections</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero__image-col">
+        <img src="assets/images/hero/hero-main.svg" alt="Sexy Las Trade beachwear editorial" class="hero-anim hero-anim--1">
+        <div class="hero__frame-corner hero__frame-corner--tl hero-anim hero-anim--2"></div>
+        <div class="hero__frame-corner hero__frame-corner--br hero-anim hero-anim--2"></div>
+      </div>
+      <div class="hero__content">
+        <p class="eyebrow hero-anim hero-anim--1">Abeokuta, styled for the coast</p>
+        <h1 class="hero__headline hero-anim hero-anim--2">Beachwear that reads<br>like a fashion editorial.</h1>
+        <p class="hero__sub hero-anim hero-anim--3">Bikinis, swimwear, raffia accessories, lingerie, crochet, gym wear — dressed up in careful styling, priced for every day. Everyone belongs on this coastline.</p>
+        <div class="hero__actions hero-anim hero-anim--4">
+          <a href="shop.html" class="btn btn--primary">Shop the Edit</a>
+          <a href="collections.html" class="btn btn--outline">Browse Collections</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Category Marquee ===== -->
+    <section class="category-marquee" aria-label="Product categories">
+      <div class="marquee-track">
+        <span>Bikinis</span><span class="dot">·</span>
+        <span>Swimwear</span><span class="dot">·</span>
+        <span>Raffia Bags</span><span class="dot">·</span>
+        <span>Raffia Hats</span><span class="dot">·</span>
+        <span>Earrings</span><span class="dot">·</span>
+        <span>Crochet</span><span class="dot">·</span>
+        <span>Lingerie</span><span class="dot">·</span>
+        <span>Nightwear</span><span class="dot">·</span>
+        <span>Gym Wear</span><span class="dot">·</span>
+        <span>Bikini Covers</span><span class="dot">·</span>
+        <!-- duplicate for seamless loop -->
+        <span>Bikinis</span><span class="dot">·</span>
+        <span>Swimwear</span><span class="dot">·</span>
+        <span>Raffia Bags</span><span class="dot">·</span>
+        <span>Raffia Hats</span><span class="dot">·</span>
+        <span>Earrings</span><span class="dot">·</span>
+        <span>Crochet</span><span class="dot">·</span>
+        <span>Lingerie</span><span class="dot">·</span>
+        <span>Nightwear</span><span class="dot">·</span>
+        <span>Gym Wear</span><span class="dot">·</span>
+        <span>Bikini Covers</span><span class="dot">·</span>
+      </div>
+    </section>
+
+    <!-- ===== New Arrivals ===== -->
+    <section class="section-new-arrivals container">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Just In</p>
+        <h2>New Arrivals</h2>
+      </div>
+
+      <div class="product-grid" id="new-arrivals-grid">
+        <!-- Populated by js/products.js — placeholder markup below for no-JS fallback -->
+        <article class="product-card viewfinder" data-reveal>
+          <a href="shop.html" class="product-card__image-wrap">
+            <img src="assets/images/products/bikini-set-01.svg" alt="Sun Coast bikini set">
+            <span class="product-card__badge">New</span>
+            <span class="product-card__quick-add">Quick Add</span>
+          </a>
+          <p class="product-card__category">Bikinis</p>
+          <h3 class="product-card__name">Sun Coast Bikini Set</h3>
+          <p class="product-card__price">₦18,500</p>
+        </article>
+
+        <article class="product-card viewfinder" data-reveal data-reveal-delay="1">
+          <a href="shop.html" class="product-card__image-wrap">
+            <img src="assets/images/products/raffia-bag-01.svg" alt="Woven raffia tote bag">
+            <span class="product-card__badge">New</span>
+            <span class="product-card__quick-add">Quick Add</span>
+          </a>
+          <p class="product-card__category">Raffia Accessories</p>
+          <h3 class="product-card__name">Woven Tote Bag</h3>
+          <p class="product-card__price">₦12,000</p>
+        </article>
+
+        <article class="product-card viewfinder" data-reveal data-reveal-delay="2">
+          <a href="shop.html" class="product-card__image-wrap">
+            <img src="assets/images/products/crochet-dress-01.svg" alt="Crochet cover-up dress">
+            <span class="product-card__quick-add">Quick Add</span>
+          </a>
+          <p class="product-card__category">Crochet</p>
+          <h3 class="product-card__name">Open-Knit Cover Dress</h3>
+          <p class="product-card__price">₦21,000</p>
+        </article>
+
+        <article class="product-card viewfinder" data-reveal data-reveal-delay="3">
+          <a href="shop.html" class="product-card__image-wrap">
+            <img src="assets/images/products/lingerie-set-01.svg" alt="Lace lingerie set">
+            <span class="product-card__badge">New</span>
+            <span class="product-card__quick-add">Quick Add</span>
+          </a>
+          <p class="product-card__category">Lingerie</p>
+          <h3 class="product-card__name">Blush Lace Set</h3>
+          <p class="product-card__price">₦15,500</p>
+        </article>
+      </div>
+
+      <div class="section-cta" data-reveal>
+        <a href="shop.html" class="btn--ghost">View Full Shop →</a>
+      </div>
+    </section>
+
+    <!-- ===== Editorial Split (Brand Story teaser) ===== -->
+    <section class="editorial-split">
+      <div class="editorial-split__image" data-reveal="fade">
+        <img src="assets/images/hero/hero-secondary.svg" alt="Styling detail, Sexy Las Trade">
+      </div>
+      <div class="editorial-split__content">
+        <p class="eyebrow" data-reveal>Our Story</p>
+        <h2 data-reveal data-reveal-delay="1">Styled in Lagos,<br>made for every coastline.</h2>
+        <p data-reveal data-reveal-delay="2">Sexy Las Trade started with a simple belief: beachwear and everyday essentials shouldn't force a choice between looking expensive and being affordable. Every piece — from raffia to lace — is chosen with an editorial eye and priced for real life.</p>
+        <a href="about.html" class="btn--ghost" data-reveal data-reveal-delay="3">Read Our Story →</a>
+      </div>
+    </section>
+
+    <!-- ===== Collections Preview ===== -->
+    <section class="section-collections container">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Shop by Category</p>
+        <h2>Find Your Fit</h2>
+      </div>
+
+      <div class="collections-grid">
+        <a href="collections.html#bikinis" class="category-tile category-tile--large" data-reveal>
+          <img src="assets/images/products/cat-bikinis.svg" alt="Bikinis category">
+          <div class="category-tile__content">
+            <h3 class="category-tile__name">Bikinis</h3>
+            <p class="category-tile__count">Shop the range →</p>
+          </div>
+        </a>
+        <a href="collections.html#raffia" class="category-tile" data-reveal data-reveal-delay="1">
+          <img src="assets/images/products/cat-raffia.svg" alt="Raffia accessories category">
+          <div class="category-tile__content">
+            <h3 class="category-tile__name">Raffia Edit</h3>
+            <p class="category-tile__count">Bags, hats & earrings →</p>
+          </div>
+        </a>
+        <a href="collections.html#lingerie" class="category-tile" data-reveal data-reveal-delay="2">
+          <img src="assets/images/products/cat-lingerie.svg" alt="Lingerie and nightwear category">
+          <div class="category-tile__content">
+            <h3 class="category-tile__name">Lingerie & Night</h3>
+            <p class="category-tile__count">Shop the range →</p>
+          </div>
+        </a>
+        <a href="collections.html#gym" class="category-tile" data-reveal data-reveal-delay="3">
+          <img src="assets/images/products/cat-gym.svg" alt="Gym wear category">
+          <div class="category-tile__content">
+            <h3 class="category-tile__name">Gym Wear</h3>
+            <p class="category-tile__count">Shop the range →</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== WhatsApp CTA Band ===== -->
+    <section class="cta-band">
+      <div class="container cta-band__inner" data-reveal>
+        <h2>Prefer to order on WhatsApp?</h2>
+        <p>Message us your size and style — we'll sort the rest.</p>
+        <a href="https://wa.me/2340000000000" target="_blank" rel="noopener" class="btn btn--primary">Chat With Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Cart Drawer ===== -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping cart">
+    <div class="cart-drawer__header">
+      <h3>Your Bag</h3>
+      <button id="cart-close" aria-label="Close cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="cart-drawer__items" id="cart-items">
+      <div class="cart-drawer__empty">Your bag is empty.<br>Start exploring the shop.</div>
+    </div>
+    <div class="cart-drawer__footer" id="cart-footer" hidden>
+      <div class="cart-drawer__subtotal">
+        <span>Subtotal</span>
+        <span id="cart-subtotal">₦0</span>
+      </div>
+      <button class="btn btn--primary btn--full" id="checkout-btn">Checkout via WhatsApp</button>
+    </div>
+  </aside>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <p class="footer-brand">Sexy Las <span>Trade</span></p>
+          <p>Beachwear and everyday essentials, styled with an editorial eye. Home of bikinis, swimwear, raffia, crochet, lingerie and more.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="shop.html">All Products</a>
+          <a href="collections.html">Collections</a>
+          <a href="shop.html">New Arrivals</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">Our Story</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <a href="https://wa.me/2340000000000" target="_blank" rel="noopener">WhatsApp Us</a>
+          <a href="mailto:hello@sexylastrade.com">hello@sexylastrade.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Sexy Las Trade. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://wa.me/2340000000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3a9 9 0 00-7.5 13.9L3 21l4.2-1.4A9 9 0 1012 3z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2340000000000" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Order via WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3a9 9 0 00-7.5 13.9L3 21l4.2-1.4A9 9 0 1012 3z"/></svg>
+  </a>
+
+  <script src="js/nav.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/order.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

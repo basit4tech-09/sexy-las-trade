@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collections — Sexy Las Trade</title>
+  <meta name="description" content="Browse Sexy Las Trade by collection: bikinis, swimwear, raffia accessories, crochet, lingerie, nightwear, gym wear and bikini covers.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/collections.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <a href="index.html" class="site-header__logo">Sexy Las <span>Trade</span></a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="collections.html" aria-current="page">Collections</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="site-header__actions">
+      <button class="header-icon-btn" id="cart-toggle" aria-label="Open cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/><path d="M6 6L4 3H2"/></svg>
+        <span class="cart-count" id="cart-count" hidden>0</span>
+      </button>
+      <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Mobile Nav ===== -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="collections.html">Collections</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- ===== Page Banner ===== -->
+    <section class="collections-banner">
+      <div class="container">
+        <p class="eyebrow">Browse by Collection</p>
+        <h1>Every Edit, <br>One Coastline.</h1>
+        <p class="collections-banner__sub">From bikinis to gym wear, raffia to lace — each collection has its own character. Find the one that's you.</p>
+      </div>
+    </section>
+
+    <!-- ===== Bikinis — Featured Full Banner ===== -->
+    <section class="collection-feature" id="bikinis" data-reveal="fade">
+      <img src="assets/images/products/cat-bikinis.svg" alt="Bikinis collection">
+      <div class="collection-feature__content">
+        <p class="eyebrow">01 — The Core Edit</p>
+        <h2>Bikinis</h2>
+        <p>High-waist, tie-side, structured or barely-there — our bikini edit is built for every shape and every shade of confidence.</p>
+        <a href="shop.html?category=Bikinis" class="btn btn--primary">Shop Bikinis</a>
+      </div>
+    </section>
+
+    <!-- ===== Swimwear + Raffia — Split ===== -->
+    <section class="collection-split">
+      <a href="shop.html?category=Swimwear" class="collection-tile" id="swimwear" data-reveal>
+        <img src="assets/images/products/cat-swimwear.svg" alt="Swimwear collection">
+        <div class="collection-tile__content">
+          <p class="eyebrow">02</p>
+          <h3>Swimwear</h3>
+          <p>One-pieces and swim shorts, cut for the water and styled for the sand.</p>
+          <span class="collection-tile__link">Shop Swimwear →</span>
+        </div>
+      </a>
+      <a href="shop.html?category=Raffia%20Accessories" class="collection-tile" id="raffia" data-reveal data-reveal-delay="1">
+        <img src="assets/images/products/cat-raffia.svg" alt="Raffia accessories collection">
+        <div class="collection-tile__content">
+          <p class="eyebrow">03</p>
+          <h3>Raffia Edit</h3>
+          <p>Hand-woven bags, hats and earrings — the finishing touch on every look.</p>
+          <span class="collection-tile__link">Shop Raffia →</span>
+        </div>
+      </a>
+    </section>
+
+    <!-- ===== Crochet — Asymmetric Banner ===== -->
+    <section class="collection-feature collection-feature--reverse" id="crochet" data-reveal="fade">
+      <img src="assets/images/products/cat-crochet.svg" alt="Crochet collection">
+      <div class="collection-feature__content">
+        <p class="eyebrow">04 — Handmade Texture</p>
+        <h2>Crochet</h2>
+        <p>Open-knit dresses and cover-ups that move easily from beach to boardwalk, each piece with its own texture and character.</p>
+        <a href="shop.html?category=Crochet" class="btn btn--primary">Shop Crochet</a>
+      </div>
+    </section>
+
+    <!-- ===== Lingerie + Nightwear — Split ===== -->
+    <section class="collection-split">
+      <a href="shop.html?category=Lingerie" class="collection-tile" id="lingerie" data-reveal>
+        <img src="assets/images/products/cat-lingerie.svg" alt="Lingerie collection">
+        <div class="collection-tile__content">
+          <p class="eyebrow">05</p>
+          <h3>Lingerie</h3>
+          <p>Lace and soft fabrics, designed for everyday confidence, not just special occasions.</p>
+          <span class="collection-tile__link">Shop Lingerie →</span>
+        </div>
+      </a>
+      <a href="shop.html?category=Nightwear" class="collection-tile" id="nightwear" data-reveal data-reveal-delay="1">
+        <img src="assets/images/products/cat-lingerie.svg" alt="Nightwear collection">
+        <div class="collection-tile__content">
+          <p class="eyebrow">06</p>
+          <h3>Nightwear</h3>
+          <p>Silk-feel slips and relaxed fits, made for the quiet hours.</p>
+          <span class="collection-tile__link">Shop Nightwear →</span>
+        </div>
+      </a>
+    </section>
+
+    <!-- ===== Gym Wear + Bikini Covers — Split ===== -->
+    <section class="collection-split" id="gym">
+      <a href="shop.html?category=Gym%20Wear" class="collection-tile" data-reveal>
+        <img src="assets/images/products/cat-gym.svg" alt="Gym wear collection">
+        <div class="collection-tile__content">
+          <p class="eyebrow">07</p>
+          <h3>Gym Wear</h3>
+          <p>Supportive sets built for movement, styled for the mirror selfie too.</p>
+          <span class="collection-tile__link">Shop Gym Wear →</span>
+        </div>
+      </a>
+      <a href="shop.html?category=Bikini%20Covers" class="collection-tile" id="covers" data-reveal data-reveal-delay="1">
+        <img src="assets/images/products/cat-bikinis.svg" alt="Bikini covers collection">
+        <div class="collection-tile__content">
+          <p class="eyebrow">08</p>
+          <h3>Bikini Covers</h3>
+          <p>Sheer wraps and layering pieces that go on over any bikini set.</p>
+          <span class="collection-tile__link">Shop Covers →</span>
+        </div>
+      </a>
+    </section>
+
+    <!-- ===== CTA Band ===== -->
+    <section class="cta-band">
+      <div class="container cta-band__inner" data-reveal>
+        <h2>Not sure where to start?</h2>
+        <p>Message us on WhatsApp and we'll help you find your fit.</p>
+        <a href="https://wa.me/2340000000000" target="_blank" rel="noopener" class="btn btn--primary">Chat With Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Cart Drawer ===== -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping cart">
+    <div class="cart-drawer__header">
+      <h3>Your Bag</h3>
+      <button id="cart-close" aria-label="Close cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="cart-drawer__items" id="cart-items">
+      <div class="cart-drawer__empty">Your bag is empty.<br>Start exploring the shop.</div>
+    </div>
+    <div class="cart-drawer__footer" id="cart-footer" hidden>
+      <div class="cart-drawer__subtotal">
+        <span>Subtotal</span>
+        <span id="cart-subtotal">₦0</span>
+      </div>
+      <button class="btn btn--primary btn--full" id="checkout-btn">Checkout via WhatsApp</button>
+    </div>
+  </aside>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <p class="footer-brand">Sexy Las <span>Trade</span></p>
+          <p>Beachwear and everyday essentials, styled with an editorial eye. Home of bikinis, swimwear, raffia, crochet, lingerie and more.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="shop.html">All Products</a>
+          <a href="collections.html">Collections</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">Our Story</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <a href="https://wa.me/2340000000000" target="_blank" rel="noopener">WhatsApp Us</a>
+          <a href="mailto:hello@sexylastrade.com">hello@sexylastrade.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Sexy Las Trade. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://wa.me/2340000000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3a9 9 0 00-7.5 13.9L3 21l4.2-1.4A9 9 0 1012 3z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2340000000000" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Order via WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3a9 9 0 00-7.5 13.9L3 21l4.2-1.4A9 9 0 1012 3z"/></svg>
+  </a>
+
+  <script src="js/nav.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/order.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

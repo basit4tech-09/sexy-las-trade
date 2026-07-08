@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Sexy Las Trade — "Gilded Coast" Design System
+   Design tokens: the single source of truth for the visual language.
+   ========================================================================== */
+
+:root {
+
+  /* ---- Color: Core Palette ---- */
+  --rich-black: #0D0D0D;
+  --rich-black-soft: #161412;
+  --premium-cream: #F5EFE6;
+  --premium-cream-dim: #EAE1D2;
+  --sun-gold: #C89B3C;
+  --sun-gold-light: #E0B860;
+  --sun-gold-dim: #9C7A2E;
+  --deep-umber: #3A2418;
+  --blush-dust: #D8B4A0;
+  --blush-dust-dim: #C29A85;
+
+  /* ---- Color: Functional ---- */
+  --color-bg: var(--rich-black);
+  --color-surface: var(--rich-black-soft);
+  --color-text-primary: var(--premium-cream);
+  --color-text-secondary: #B8AFA2;
+  --color-text-inverse: var(--rich-black);
+  --color-accent: var(--sun-gold);
+  --color-accent-hover: var(--sun-gold-light);
+  --color-border: rgba(200, 155, 60, 0.25);
+  --color-border-soft: rgba(245, 239, 230, 0.12);
+  --color-success: #7A9B6E;
+  --color-error: #B5563C;
+
+  /* ---- Typography: Families ---- */
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-body: 'Instrument Sans', -apple-system, sans-serif;
+
+  /* ---- Typography: Scale (fluid, clamp-based) ---- */
+  --text-display: clamp(2.75rem, 5vw + 1rem, 5.5rem);
+  --text-h1: clamp(2.25rem, 3.5vw + 1rem, 3.75rem);
+  --text-h2: clamp(1.75rem, 2.5vw + 1rem, 2.75rem);
+  --text-h3: clamp(1.35rem, 1.5vw + 1rem, 1.85rem);
+  --text-h4: clamp(1.1rem, 1vw + 1rem, 1.35rem);
+  --text-body-lg: clamp(1.05rem, 0.5vw + 1rem, 1.2rem);
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-caption: 0.75rem;
+
+  /* ---- Typography: Weights ---- */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* ---- Typography: Letter Spacing ---- */
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.08em;
+  --tracking-wider: 0.16em;
+
+  /* ---- Spacing Scale (8pt grid) ---- */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+  --space-32: 8rem;     /* 128px */
+
+  /* ---- Layout ---- */
+  --container-max: 1360px;
+  --container-narrow: 760px;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
+
+  /* ---- Radius ---- */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-full: 999px;
+
+  /* ---- Shadow / Elevation ---- */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.45);
+  --shadow-gold: 0 4px 20px rgba(200, 155, 60, 0.25);
+
+  /* ---- Motion ---- */
+  --ease-standard: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 180ms;
+  --duration-base: 320ms;
+  --duration-slow: 600ms;
+
+  /* ---- Z-index ---- */
+  --z-header: 100;
+  --z-cart: 200;
+  --z-modal: 300;
+}

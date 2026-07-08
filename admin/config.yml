@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Netlify Identity handles login; Git Gateway lets the CMS commit
+# changes back to the repo on the owner's behalf.
+
+media_folder: "assets/images/products"
+public_folder: "/assets/images/products"
+
+collections:
+  - name: "products"
+    label: "Products"
+    files:
+      - file: "data/products.json"
+        label: "Product Catalog"
+        name: "catalog"
+        description: "Add, edit, or remove products. Changes go live automatically after a short delay."
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            summary: "{{name}} — ₦{{price}}"
+            fields:
+              - { label: "ID (unique, no spaces — e.g. bikini-set-03)", name: "id", widget: "string" }
+              - { label: "Product Name", name: "name", widget: "string" }
+              - { label: "Price (₦, numbers only)", name: "price", widget: "number", value_type: "int" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - "Bikinis"
+                  - "Swimwear"
+                  - "Raffia Accessories"
+                  - "Crochet"
+                  - "Lingerie"
+                  - "Nightwear"
+                  - "Gym Wear"
+                  - "Bikini Covers"
+              - { label: "Product Photo", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Mark as New Arrival", name: "isNew", widget: "boolean", default: false }

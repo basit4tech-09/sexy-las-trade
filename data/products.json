@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": "bikini-set-01",
+      "name": "Sun Coast Bikini Set",
+      "price": 18500,
+      "category": "Bikinis",
+      "image": "assets/images/products/bikini-set-01.svg",
+      "description": "A high-waist bikini set cut for confidence, styled for every shade of coastline.",
+      "isNew": true
+    },
+    {
+      "id": "bikini-set-02",
+      "name": "Amber Tie-Side Bikini",
+      "price": 16000,
+      "category": "Bikinis",
+      "image": "assets/images/products/bikini-set-02.svg",
+      "description": "Adjustable tie-side bottoms and a soft-support top in warm amber tones.",
+      "isNew": false
+    },
+    {
+      "id": "swim-shorts-01",
+      "name": "Umber Swim Shorts",
+      "price": 14000,
+      "category": "Swimwear",
+      "image": "assets/images/products/swim-shorts-01.svg",
+      "description": "Quick-dry swim shorts with a tailored fit — built for the beach, styled for after.",
+      "isNew": false
+    },
+    {
+      "id": "swimsuit-01",
+      "name": "Gilded One-Piece",
+      "price": 19500,
+      "category": "Swimwear",
+      "image": "assets/images/products/swimsuit-01.svg",
+      "description": "A structured one-piece with a low back and gold-tone hardware detail.",
+      "isNew": true
+    },
+    {
+      "id": "raffia-bag-01",
+      "name": "Woven Tote Bag",
+      "price": 12000,
+      "category": "Raffia Accessories",
+      "image": "assets/images/products/raffia-bag-01.svg",
+      "description": "Hand-woven raffia tote, roomy enough for a beach day, sharp enough for the street.",
+      "isNew": true
+    },
+    {
+      "id": "raffia-hat-01",
+      "name": "Wide Brim Raffia Hat",
+      "price": 9500,
+      "category": "Raffia Accessories",
+      "image": "assets/images/products/raffia-hat-01.svg",
+      "description": "Wide-brim sun protection with a hand-finished woven edge.",
+      "isNew": false
+    },
+    {
+      "id": "raffia-earrings-01",
+      "name": "Coastline Raffia Earrings",
+      "price": 4500,
+      "category": "Raffia Accessories",
+      "image": "assets/images/products/raffia-earrings-01.svg",
+      "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
+      "isNew": false
+    },
+    {
+      "id": "crochet-dress-01",
+      "name": "Open-Knit Cover Dress",
+      "price": 21000,
+      "category": "Crochet",
+      "image": "assets/images/products/crochet-dress-01.svg",
+      "description": "An open-knit crochet cover-up that moves from beach to boardwalk.",
+      "isNew": true
+    },
+    {
+      "id": "bikini-cover-01",
+      "name": "Sheer Wrap Cover-Up",
+      "price": 11000,
+      "category": "Bikini Covers",
+      "image": "assets/images/products/bikini-cover-01.svg",
+      "description": "A sheer wrap that layers easily over any bikini set.",
+      "isNew": false
+    },
+    {
+      "id": "lingerie-set-01",
+      "name": "Blush Lace Set",
+      "price": 15500,
+      "category": "Lingerie",
+      "image": "assets/images/products/lingerie-set-01.svg",
+      "description": "Soft lace lingerie set in blush tones, designed for everyday confidence.",
+      "isNew": true
+    },
+    {
+      "id": "nightwear-01",
+      "name": "Umber Silk-Feel Slip",
+      "price": 13500,
+      "category": "Nightwear",
+      "image": "assets/images/products/nightwear-01.svg",
+      "description": "A silk-feel slip with a bias cut that drapes rather than clings.",
+      "isNew": false
+    },
+    {
+      "id": "gym-set-01",
+      "name": "Motion Gym Set",
+      "price": 17000,
+      "category": "Gym Wear",
+      "image": "assets/images/products/gym-set-01.svg",
+      "description": "A supportive two-piece gym set built for movement, styled for the mirror selfie too.",
+      "isNew": false
+    }
+  ]
+}

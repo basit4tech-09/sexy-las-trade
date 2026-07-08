@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <rect width="900" height="1200" fill="#161412"/>
+  <rect x="0" y="0" width="900" height="1200" fill="none" stroke="#C89B3C" stroke-width="1" stroke-opacity="0.35"/>
+  <line x1="0" y1="0" x2="900" y2="1200" stroke="#C89B3C" stroke-width="0.5" stroke-opacity="0.15"/>
+  <line x1="900" y1="0" x2="0" y2="1200" stroke="#C89B3C" stroke-width="0.5" stroke-opacity="0.15"/>
+  <text x="50%" y="50%" font-family="Georgia, serif" font-size="64" fill="#F5EFE6" text-anchor="middle" dominant-baseline="middle" letter-spacing="2" opacity="0.7">SWIMWEAR</text>
+</svg>

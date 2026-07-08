@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story — Sexy Las Trade</title>
+  <meta name="description" content="Sexy Las Trade is built on one belief: beachwear and everyday essentials shouldn't force a choice between looking expensive and being affordable.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <a href="index.html" class="site-header__logo">Sexy Las <span>Trade</span></a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="collections.html">Collections</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="site-header__actions">
+      <button class="header-icon-btn" id="cart-toggle" aria-label="Open cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/><path d="M6 6L4 3H2"/></svg>
+        <span class="cart-count" id="cart-count" hidden>0</span>
+      </button>
+      <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Mobile Nav ===== -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="collections.html">Collections</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- ===== Intro Statement ===== -->
+    <section class="about-intro">
+      <div class="container">
+        <p class="eyebrow">Our Story</p>
+        <h1 class="about-intro__statement">We believe looking expensive<br>and being affordable were<br>never supposed to be opposites.</h1>
+      </div>
+    </section>
+
+    <!-- ===== Origin — Image + Text ===== -->
+    <section class="about-row">
+      <div class="about-row__image" data-reveal="fade">
+        <img src="assets/images/hero/hero-secondary.svg" alt="Sexy Las Trade styling detail">
+      </div>
+      <div class="about-row__text">
+        <p class="eyebrow" data-reveal>How We Started</p>
+        <h2 data-reveal data-reveal-delay="1">Started with a wardrobe gap, not a business plan.</h2>
+        <p data-reveal data-reveal-delay="2">Sexy Las Trade began with a simple frustration: finding beachwear and everyday pieces that felt considered — the fit, the fabric, the styling — without paying luxury markup for the privilege. So we started sourcing and styling pieces ourselves, one bikini set and one raffia bag at a time.</p>
+        <p data-reveal data-reveal-delay="3">What started small has grown into a full edit — bikinis, swimwear, raffia accessories, crochet, lingerie, nightwear and gym wear — all held to the same standard: it has to look like more than it costs.</p>
+      </div>
+    </section>
+
+    <!-- ===== Everyone Belongs ===== -->
+    <section class="about-statement-band" data-reveal="fade">
+      <div class="container">
+        <p class="about-statement-band__label">Who It's For</p>
+        <h2>Everyone belongs<br>on this coastline.</h2>
+        <p class="about-statement-band__sub">Every shape, every shade, every budget. We style for the person, not a mold.</p>
+      </div>
+    </section>
+
+    <!-- ===== Values — Editorial List ===== -->
+    <section class="about-values container">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">What We Stand For</p>
+        <h2>How We Work</h2>
+      </div>
+
+      <div class="values-list">
+        <div class="value-row" data-reveal>
+          <h3 class="value-row__name">Considered Sourcing</h3>
+          <p class="value-row__desc">Every piece is chosen with an eye for fabric, fit and finish — not just what's trending. If it wouldn't earn a place in our own closets, it doesn't make the shop.</p>
+        </div>
+        <div class="value-row" data-reveal data-reveal-delay="1">
+          <h3 class="value-row__name">Honest Pricing</h3>
+          <p class="value-row__desc">Editorial styling shouldn't mean editorial prices. We keep our margins fair so quality stays within reach.</p>
+        </div>
+        <div class="value-row" data-reveal data-reveal-delay="2">
+          <h3 class="value-row__name">Real Conversations</h3>
+          <p class="value-row__desc">No cold checkout forms. Every order goes through a real WhatsApp conversation, so sizing, styling and delivery questions get real answers.</p>
+        </div>
+        <div class="value-row" data-reveal data-reveal-delay="3">
+          <h3 class="value-row__name">Made for Everyone</h3>
+          <p class="value-row__desc">Our sizing, our styling, and our service are built around the idea that everyone deserves to feel good in what they wear.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA Band ===== -->
+    <section class="cta-band">
+      <div class="container cta-band__inner" data-reveal>
+        <h2>Ready to find your fit?</h2>
+        <p>Explore the full edit or message us directly on WhatsApp.</p>
+        <div class="cta-band__actions">
+          <a href="shop.html" class="btn btn--primary">Shop Now</a>
+          <a href="https://wa.me/2340000000000" target="_blank" rel="noopener" class="btn btn--outline">Chat With Us</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Cart Drawer ===== -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping cart">
+    <div class="cart-drawer__header">
+      <h3>Your Bag</h3>
+      <button id="cart-close" aria-label="Close cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="cart-drawer__items" id="cart-items">
+      <div class="cart-drawer__empty">Your bag is empty.<br>Start exploring the shop.</div>
+    </div>
+    <div class="cart-drawer__footer" id="cart-footer" hidden>
+      <div class="cart-drawer__subtotal">
+        <span>Subtotal</span>
+        <span id="cart-subtotal">₦0</span>
+      </div>
+      <button class="btn btn--primary btn--full" id="checkout-btn">Checkout via WhatsApp</button>
+    </div>
+  </aside>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <p class="footer-brand">Sexy Las <span>Trade</span></p>
+          <p>Beachwear and everyday essentials, styled with an editorial eye. Home of bikinis, swimwear, raffia, crochet, lingerie and more.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="shop.html">All Products</a>
+          <a href="collections.html">Collections</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">Our Story</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <a href="https://wa.me/2340000000000" target="_blank" rel="noopener">WhatsApp Us</a>
+          <a href="mailto:hello@sexylastrade.com">hello@sexylastrade.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Sexy Las Trade. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://wa.me/2340000000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3a9 9 0 00-7.5 13.9L3 21l4.2-1.4A9 9 0 1012 3z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2340000000000" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Order via WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3a9 9 0 00-7.5 13.9L3 21l4.2-1.4A9 9 0 1012 3z"/></svg>
+  </a>
+
+  <script src="js/nav.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/order.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
