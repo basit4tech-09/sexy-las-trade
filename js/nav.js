@@ -1,3 +1,17 @@
+
+
+
+// --- Page Loader ---
+const pageLoader = document.getElementById('pageLoader');
+
+if (pageLoader) {
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      pageLoader.classList.add('hidden');
+    }, 1000);
+  });
+}
+
 /* ==========================================================================
    Navigation — mobile menu toggle, header scroll behavior
    ========================================================================== */

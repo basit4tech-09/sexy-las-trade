@@ -2,21 +2,40 @@
   "products": [
     {
       "id": "bikini-set-01",
-      "name": "Sun Coast Bikini Set",
-      "price": 18500,
+      "name": "Women Summer Bikini Set M-L",
+      "price": 15000,
       "category": "Bikinis",
-      "image": "assets/images/products/bikini-set-01.svg",
-      "description": "A high-waist bikini set cut for confidence, styled for every shade of coastline.",
+      "image": "assets/images/products/bikini-sets-01.jpg",
+      "description": "Women Summer Beach Allover Print Halter Triangle Bikini Set With Kimono.",
       "isNew": true
+    },
+    
+     {
+      "id": "lingerie-set-02",
+      "name": "Blush Lace Set",
+      "price": 15500,
+      "category": "Lingerie",
+      "image": "assets/images/products/lingerie-sets-02.jpg",
+      "description": "Soft lace lingerie set in blush tones, designed for everyday confidence.",
+      "isNew": false
     },
     {
       "id": "bikini-set-02",
-      "name": "Amber Tie-Side Bikini",
-      "price": 16000,
+      "name": "Bikini ",
+      "price": 8000,
       "category": "Bikinis",
-      "image": "assets/images/products/bikini-set-02.svg",
+      "image": "assets/images/products/bikini-sets-02.jpg",
       "description": "Adjustable tie-side bottoms and a soft-support top in warm amber tones.",
       "isNew": false
+    },
+     {
+      "id": "lingerie-set-03",
+      "name": "Blush Lace Set",
+      "price": 15500,
+      "category": "Lingerie",
+      "image": "assets/images/products/lingerie-sets-03.jpg",
+      "description": "Soft lace lingerie set in blush tones, designed for everyday confidence.",
+      "isNew": true
     },
     {
       "id": "swim-shorts-01",
@@ -26,6 +45,15 @@
       "image": "assets/images/products/swim-shorts-01.svg",
       "description": "Quick-dry swim shorts with a tailored fit — built for the beach, styled for after.",
       "isNew": false
+    },
+     {
+      "id": "lingerie-set-04",
+      "name": "Blush Lace Set",
+      "price": 15500,
+      "category": "Lingerie",
+      "image": "assets/images/products/lingerie-sets-04.jpg",
+      "description": "Soft lace lingerie set in blush tones, designed for everyday confidence.",
+      "isNew": true
     },
     {
       "id": "swimsuit-01",
@@ -57,12 +85,25 @@
     {
       "id": "raffia-earrings-01",
       "name": "Coastline Raffia Earrings",
-      "price": 4500,
+      "price": 3000,
       "category": "Raffia Accessories",
-      "image": "assets/images/products/raffia-earrings-01.svg",
+      "image": "assets/images/products/raffia-earrings-01.jpg",
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
-      "isNew": false
+      "isNew": true
     },
+
+   {
+      "id": "raffia-earrings-02",
+      "name": "Coastline Raffia Earrings",
+      "price": 3000,
+      "category": "Raffia Accessories",
+      "image": "assets/images/products/raffia-earrings-02.jpg",
+      "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
+      "isNew": true
+    },
+
+    
+
     {
       "id": "crochet-dress-01",
       "name": "Open-Knit Cover Dress",
@@ -72,12 +113,23 @@
       "description": "An open-knit crochet cover-up that moves from beach to boardwalk.",
       "isNew": true
     },
+
+     {
+      "id": "raffia-earrings-03",
+      "name": "Coastline Raffia Earrings",
+      "price": 3000,
+      "category": "Raffia Accessories",
+      "image": "assets/images/products/raffia-earrings-03.jpg",
+      "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
+      "isNew": false
+    },
+
     {
       "id": "bikini-cover-01",
       "name": "Sheer Wrap Cover-Up",
       "price": 11000,
       "category": "Bikini Covers",
-      "image": "assets/images/products/bikini-cover-01.svg",
+      "image": "assets/images/products/bikini-covers-01.svg",
       "description": "A sheer wrap that layers easily over any bikini set.",
       "isNew": false
     },
@@ -86,7 +138,7 @@
       "name": "Blush Lace Set",
       "price": 15500,
       "category": "Lingerie",
-      "image": "assets/images/products/lingerie-set-01.svg",
+      "image": "assets/images/products/lingerie-sets-01.jpg",
       "description": "Soft lace lingerie set in blush tones, designed for everyday confidence.",
       "isNew": true
     },
@@ -99,6 +151,15 @@
       "description": "A silk-feel slip with a bias cut that drapes rather than clings.",
       "isNew": false
     },
+     {
+      "id": "raffia-earrings-04",
+      "name": "Coastline Raffia Earrings",
+      "price": 3000,
+      "category": "Raffia Accessories",
+      "image": "assets/images/products/raffia-earrings-04.jpg",
+      "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
+      "isNew": false
+    },
     {
       "id": "gym-set-01",
       "name": "Motion Gym Set",
@@ -106,6 +167,15 @@
       "category": "Gym Wear",
       "image": "assets/images/products/gym-set-01.svg",
       "description": "A supportive two-piece gym set built for movement, styled for the mirror selfie too.",
+      "isNew": false
+    },
+     {
+      "id": "raffia-earrings-05",
+      "name": "Coastline Raffia Earrings",
+      "price": 3000,
+      "category": "Raffia Accessories",
+      "image": "assets/images/products/raffia-earrings-05.jpg",
+      "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "isNew": false
     }
   ]
