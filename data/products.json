@@ -107,6 +107,15 @@
       "image": "assets/images/products/gym-set-01.svg",
       "description": "A supportive two-piece gym set built for movement, styled for the mirror selfie too.",
       "isNew": false
+    },
+    {
+      "isNew": false,
+      "id": "BIKINI-SET-03",
+      "name": "S235- beach girl set  3in1 bad bitch set😜 Perfect for Size 8-18  ",
+      "price": 12000,
+      "category": "Bikinis",
+      "description": "S235- beach girl set  3in1 bad bitch set😜 Perfect for Size 8-18  ",
+      "image": "/assets/images/products/11490.jpg"
     }
   ]
 }
