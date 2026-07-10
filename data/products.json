@@ -168,15 +168,6 @@
       "image": "assets/images/products/gym-set-01.svg",
       "description": "A supportive two-piece gym set built for movement, styled for the mirror selfie too.",
       "isNew": false
-    },
-     {
-      "id": "raffia-earrings-05",
-      "name": "Coastline Raffia Earrings",
-      "price": 3000,
-      "category": "Raffia Accessories",
-      "image": "assets/images/products/raffia-earrings-05.jpg",
-      "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
-      "isNew": false
     }
   ]
 }
