@@ -9,8 +9,7 @@
       "description": "Women Summer Beach Allover Print Halter Triangle Bikini Set With Kimono.",
       "isNew": true
     },
-    
-     {
+    {
       "id": "lingerie-set-02",
       "name": "Blush Lace Set",
       "price": 15500,
@@ -28,7 +27,7 @@
       "description": "Adjustable tie-side bottoms and a soft-support top in warm amber tones.",
       "isNew": false
     },
-     {
+    {
       "id": "lingerie-set-03",
       "name": "Blush Lace Set",
       "price": 15500,
@@ -46,7 +45,7 @@
       "description": "Quick-dry swim shorts with a tailored fit — built for the beach, styled for after.",
       "isNew": false
     },
-     {
+    {
       "id": "lingerie-set-04",
       "name": "Blush Lace Set",
       "price": 15500,
@@ -91,8 +90,7 @@
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "isNew": true
     },
-
-   {
+    {
       "id": "raffia-earrings-02",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
@@ -101,9 +99,6 @@
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "isNew": true
     },
-
-    
-
     {
       "id": "crochet-dress-01",
       "name": "Open-Knit Cover Dress",
@@ -113,8 +108,7 @@
       "description": "An open-knit crochet cover-up that moves from beach to boardwalk.",
       "isNew": true
     },
-
-     {
+    {
       "id": "raffia-earrings-03",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
@@ -123,7 +117,6 @@
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "isNew": false
     },
-
     {
       "id": "bikini-cover-01",
       "name": "Sheer Wrap Cover-Up",
@@ -151,7 +144,7 @@
       "description": "A silk-feel slip with a bias cut that drapes rather than clings.",
       "isNew": false
     },
-     {
+    {
       "id": "raffia-earrings-04",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
@@ -168,6 +161,15 @@
       "image": "assets/images/products/gym-set-01.svg",
       "description": "A supportive two-piece gym set built for movement, styled for the mirror selfie too.",
       "isNew": false
+    },
+    {
+      "isNew": true,
+      "id": "Bikini-Set-04",
+      "name": "Swim Vcay Summer Beach 3packs Halter Triangle Bikini With Palm Print Beach Skirt   ",
+      "price": 15000,
+      "category": "Bikinis",
+      "image": "/assets/images/products/14077.jpg",
+      "description": "Swim Vcay Summer Beach 3packs Halter Triangle Bikini With Palm Print Beach Skirt\n size :M-L"
     }
   ]
 }
