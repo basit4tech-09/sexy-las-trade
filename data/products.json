@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": "bikini-set-01",
+      "id": "01",
       "name": "Women Summer Bikini Set M-L",
       "price": 15000,
       "category": "Bikinis",
@@ -10,7 +10,7 @@
       "isNew": true
     },
     {
-      "id": "lingerie-set-02",
+      "id": "02",
       "name": "Blush Lace Set",
       "price": 15500,
       "category": "Lingerie",
@@ -19,7 +19,7 @@
       "isNew": false
     },
     {
-      "id": "bikini-set-02",
+      "id": "03",
       "name": "Bikini ",
       "price": 8000,
       "category": "Bikinis",
@@ -28,7 +28,7 @@
       "isNew": false
     },
     {
-      "id": "lingerie-set-03",
+      "id": "04",
       "name": "Blush Lace Set",
       "price": 15500,
       "category": "Lingerie",
@@ -37,16 +37,7 @@
       "isNew": true
     },
     {
-      "id": "swim-shorts-01",
-      "name": "Umber Swim Shorts",
-      "price": 14000,
-      "category": "Swimwear",
-      "image": "assets/images/products/swim-shorts-01.svg",
-      "description": "Quick-dry swim shorts with a tailored fit — built for the beach, styled for after.",
-      "isNew": false
-    },
-    {
-      "id": "lingerie-set-04",
+      "id": "05",
       "name": "Blush Lace Set",
       "price": 15500,
       "category": "Lingerie",
@@ -55,7 +46,7 @@
       "isNew": true
     },
     {
-      "id": "raffia-bag-01",
+      "id": "06",
       "name": "Handwoven Raffia Rattan Crossbody Beach Straw Bag",
       "price": 6000,
       "category": "Raffia Accessories",
@@ -64,7 +55,7 @@
       "isNew": true
     },
     {
-      "id": "raffia-hat-01",
+      "id": "07",
       "name": "Wide Brim Raffia Hat",
       "price": 9500,
       "category": "Raffia Accessories",
@@ -73,7 +64,7 @@
       "isNew": false
     },
     {
-      "id": "raffia-earrings-01",
+      "id": "08",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
       "category": "Raffia Accessories",
@@ -82,7 +73,7 @@
       "isNew": true
     },
     {
-      "id": "raffia-earrings-02",
+      "id": "09",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
       "category": "Raffia Accessories",
@@ -91,7 +82,7 @@
       "isNew": true
     },
     {
-      "id": "crochet-dress-01",
+      "id": "10",
       "name": "Open-Knit Cover Dress",
       "price": 21000,
       "category": "Crochet",
@@ -100,7 +91,7 @@
       "isNew": true
     },
     {
-      "id": "raffia-earrings-03",
+      "id": "11",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
       "category": "Raffia Accessories",
@@ -109,7 +100,7 @@
       "isNew": false
     },
     {
-      "id": "bikini-cover-01",
+      "id": "12",
       "name": "Sheer Wrap Cover-Up",
       "price": 11000,
       "category": "Bikini Covers",
@@ -118,7 +109,7 @@
       "isNew": false
     },
     {
-      "id": "lingerie-set-01",
+      "id": "13",
       "name": "Blush Lace Set",
       "price": 15500,
       "category": "Lingerie",
@@ -127,7 +118,7 @@
       "isNew": true
     },
     {
-      "id": "nightwear-01",
+      "id": "14",
       "name": "Umber Silk-Feel Slip",
       "price": 13500,
       "category": "Nightwear",
@@ -136,7 +127,7 @@
       "isNew": false
     },
     {
-      "id": "raffia-earrings-04",
+      "id": "15",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
       "category": "Raffia Accessories",
@@ -145,7 +136,7 @@
       "isNew": false
     },
     {
-      "id": "gym-set-01",
+      "id": "16",
       "name": "Motion Gym Set",
       "price": 17000,
       "category": "Gym Wear",
@@ -155,7 +146,7 @@
     },
     {
       "isNew": true,
-      "id": "Bikini-Set-04",
+      "id": "17",
       "name": "Swim Vcay Summer Beach 3packs Halter Triangle Bikini With Palm Print Beach Skirt   ",
       "price": 15000,
       "category": "Bikinis",
@@ -164,12 +155,21 @@
     },
     {
       "isNew": true,
-      "id": "raffia-earrings-05",
+      "id": "18",
       "name": "RAFFIA EARRINGS",
       "price": 3000,
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "category": "Raffia Accessories",
       "image": "/assets/images/products/14266.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Umber Swim Shorts",
+      "price": 14000,
+      "category": "Swimwear",
+      "image": "assets/images/products/swim-shorts-01.svg",
+      "description": "Quick-dry swim shorts with a tailored fit — built for the beach, styled for after.",
+      "isNew": false
     }
   ]
 }
