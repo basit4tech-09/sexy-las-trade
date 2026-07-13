@@ -140,8 +140,9 @@ p {
   letter-spacing: -0.02em;
 }
 
-.loader-logo span {
-  color: var(--sun-gold-light);
+.loader-logo img {
+  width:auto ;
+  height: 52px;
 }
 
 .loader-bar {
