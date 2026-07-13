@@ -161,6 +161,15 @@
       "category": "Bikinis",
       "image": "/assets/images/products/14077.jpg",
       "description": "Swim Vcay Summer Beach 3packs Halter Triangle Bikini With Palm Print Beach Skirt\n size :M-L"
+    },
+    {
+      "isNew": true,
+      "id": "raffia-earrings-05",
+      "name": "RAFFIA EARRINGS",
+      "price": 3000,
+      "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
+      "category": "Raffia Accessories",
+      "image": "/assets/images/products/14266.jpg"
     }
   ]
 }
