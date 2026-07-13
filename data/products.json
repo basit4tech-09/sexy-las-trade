@@ -55,20 +55,11 @@
       "isNew": true
     },
     {
-      "id": "swimsuit-01",
-      "name": "Gilded One-Piece",
-      "price": 19500,
-      "category": "Swimwear",
-      "image": "assets/images/products/swimsuit-01.svg",
-      "description": "A structured one-piece with a low back and gold-tone hardware detail.",
-      "isNew": true
-    },
-    {
       "id": "raffia-bag-01",
-      "name": "Woven Tote Bag",
-      "price": 12000,
+      "name": "Handwoven Raffia Rattan Crossbody Beach Straw Bag",
+      "price": 6000,
       "category": "Raffia Accessories",
-      "image": "assets/images/products/raffia-bag-01.svg",
+      "image": "/assets/images/products/14268.jpg",
       "description": "Hand-woven raffia tote, roomy enough for a beach day, sharp enough for the street.",
       "isNew": true
     },
