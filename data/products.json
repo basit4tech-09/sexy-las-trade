@@ -56,15 +56,6 @@
     },
     {
       "id": "07",
-      "name": "Wide Brim Raffia Hat",
-      "price": 9500,
-      "category": "Raffia Accessories",
-      "image": "assets/images/products/raffia-hat-01.svg",
-      "description": "Wide-brim sun protection with a hand-finished woven edge.",
-      "isNew": false
-    },
-    {
-      "id": "08",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
       "category": "Raffia Accessories",
@@ -73,7 +64,7 @@
       "isNew": true
     },
     {
-      "id": "09",
+      "id": "08",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
       "category": "Raffia Accessories",
@@ -81,17 +72,9 @@
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "isNew": true
     },
+   
     {
-      "id": "10",
-      "name": "Open-Knit Cover Dress",
-      "price": 21000,
-      "category": "Crochet",
-      "image": "assets/images/products/crochet-dress-01.svg",
-      "description": "An open-knit crochet cover-up that moves from beach to boardwalk.",
-      "isNew": true
-    },
-    {
-      "id": "11",
+      "id": "09",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
       "category": "Raffia Accessories",
@@ -99,17 +82,9 @@
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "isNew": false
     },
+  
     {
-      "id": "12",
-      "name": "Sheer Wrap Cover-Up",
-      "price": 11000,
-      "category": "Bikini Covers",
-      "image": "assets/images/products/bikini-covers-01.svg",
-      "description": "A sheer wrap that layers easily over any bikini set.",
-      "isNew": false
-    },
-    {
-      "id": "13",
+      "id": "10",
       "name": "Blush Lace Set",
       "price": 15500,
       "category": "Lingerie",
@@ -118,16 +93,7 @@
       "isNew": true
     },
     {
-      "id": "14",
-      "name": "Umber Silk-Feel Slip",
-      "price": 13500,
-      "category": "Nightwear",
-      "image": "assets/images/products/nightwear-01.svg",
-      "description": "A silk-feel slip with a bias cut that drapes rather than clings.",
-      "isNew": false
-    },
-    {
-      "id": "15",
+      "id": "11",
       "name": "Coastline Raffia Earrings",
       "price": 3000,
       "category": "Raffia Accessories",
@@ -135,18 +101,10 @@
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "isNew": false
     },
-    {
-      "id": "16",
-      "name": "Motion Gym Set",
-      "price": 17000,
-      "category": "Gym Wear",
-      "image": "assets/images/products/gym-set-01.svg",
-      "description": "A supportive two-piece gym set built for movement, styled for the mirror selfie too.",
-      "isNew": false
-    },
+   
     {
       "isNew": true,
-      "id": "17",
+      "id": "12",
       "name": "Swim Vcay Summer Beach 3packs Halter Triangle Bikini With Palm Print Beach Skirt   ",
       "price": 15000,
       "category": "Bikinis",
@@ -155,21 +113,12 @@
     },
     {
       "isNew": true,
-      "id": "18",
+      "id": "13",
       "name": "RAFFIA EARRINGS",
       "price": 3000,
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "category": "Raffia Accessories",
       "image": "/assets/images/products/14266.jpg"
-    },
-    {
-      "id": "19",
-      "name": "Umber Swim Shorts",
-      "price": 14000,
-      "category": "Swimwear",
-      "image": "assets/images/products/swim-shorts-01.svg",
-      "description": "Quick-dry swim shorts with a tailored fit — built for the beach, styled for after.",
-      "isNew": false
     }
   ]
 }

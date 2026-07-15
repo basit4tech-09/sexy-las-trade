@@ -4,9 +4,9 @@
 
 window.SLTOrder = (function () {
   // TODO: replace with the real seller WhatsApp number (international format, no + or spaces)
-  const SELLER_WHATSAPP = '2340000000000';
+  const SELLER_WHATSAPP = '2347038376072';
   // TODO: replace with the real seller email — this is where FormSubmit sends order records
-  const FORMSUBMIT_EMAIL = 'your-email@example.com';
+  const FORMSUBMIT_EMAIL = 'Hellosexylas@gmail.com';
 
   function buildModal() {
     if (document.getElementById('checkout-overlay')) return;
