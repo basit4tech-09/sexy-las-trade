@@ -11,12 +11,12 @@
     },
     {
       "id": "02",
-      "name": "Blush Lace Set",
-      "price": 15500,
+      "name": "218 package nightgown set",
+      "price": 8000,
       "category": "Lingerie",
       "image": "assets/images/products/lingerie-sets-02.jpg",
-      "description": "Soft lace lingerie set in blush tones, designed for everyday confidence.",
-      "isNew": false
+      "description": "218 package nightgown set\nSize:XL,XXL\nperfect for size 8-16 \n",
+      "isNew": true
     },
     {
       "id": "03",
@@ -29,20 +29,20 @@
     },
     {
       "id": "04",
-      "name": "Blush Lace Set",
-      "price": 15500,
+      "name": "941 package lingerie set",
+      "price": 7000,
       "category": "Lingerie",
       "image": "assets/images/products/lingerie-sets-03.jpg",
-      "description": "Soft lace lingerie set in blush tones, designed for everyday confidence.",
+      "description": "941 package lingerie set\nSize:XL,XXL\nperfect for size 8-16 \n",
       "isNew": true
     },
     {
       "id": "05",
-      "name": "Blush Lace Set",
-      "price": 15500,
+      "name": "Liz lingerie set 2in1-comes with a matching Gstring ",
+      "price": 8000,
       "category": "Lingerie",
       "image": "assets/images/products/lingerie-sets-04.jpg",
-      "description": "Soft lace lingerie set in blush tones, designed for everyday confidence.",
+      "description": "Liz lingerie set\n2in1-comes with a matching Gstring \n\nColour-Black and white only\nPerfect for size ",
       "isNew": true
     },
     {
@@ -72,7 +72,6 @@
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "isNew": true
     },
-   
     {
       "id": "09",
       "name": "Coastline Raffia Earrings",
@@ -82,14 +81,13 @@
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "isNew": false
     },
-  
     {
       "id": "10",
-      "name": "Blush Lace Set",
-      "price": 15500,
+      "name": "940 package lingerie set",
+      "price": 7000,
       "category": "Lingerie",
       "image": "assets/images/products/lingerie-sets-01.jpg",
-      "description": "Soft lace lingerie set in blush tones, designed for everyday confidence.",
+      "description": "940 package lingerie set\nSize:XL,XXL\nperfect for size 8-16 \n",
       "isNew": true
     },
     {
@@ -101,7 +99,6 @@
       "description": "Lightweight statement earrings woven by hand, finished with gold-tone accents.",
       "isNew": false
     },
-   
     {
       "isNew": true,
       "id": "12",
